@@ -1,0 +1,49 @@
+/* styles(2).css */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center; /* Center align all text */
+    background-color: tan; /* Set the background color to tan */
+}
+
+h1, h2, h3 {
+    color: #333; /* Font color */
+}
+
+/* Div positioning and styles */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.box {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.sidebar {
+    float: left;
+    width: 30%;
+    margin-right: 20px;
+}
+
+.content {
+    float: left;
+    width: 70%;
+}
+
+/* Adjustments for the ordered and unordered lists */
+.container ol, .container ul {
+    margin-left: 0; /* Remove default margin */
+    padding-left: 20px; /* Add padding to align with text */
+}
+
+/* Adjustments for the ordered list */
+.container ol {
+    list-style-type: decimal; /* Use decimal numbers for ordered list */
+}
